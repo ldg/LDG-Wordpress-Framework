@@ -1,0 +1,27 @@
+/*Editor CSS*/
+body#tinymce.wp-editor { 
+	/*textarea style*/
+}
+
+body#tinymce.wp-editor h2 {
+	/*h2 style*/
+}
+
+body#tinymce.wp-editor h3 {
+	/*h3 style*/
+}
+
+body#tinymce.wp-editor img.alignleft {
+	/*left align image styles*/
+	margin: 0px 10px 10px 0px;
+}
+body#tinymce.wp-editor img.alignright {
+	/*right align image styles*/
+	margin: 0px 0px 10px 10px;
+}
+
+body#tinymce.wp-editor a,
+body#tinymce.wp-editor a:link,
+body#tinymce.wp-editor a:visited {
+    /*link styles*/
+}
