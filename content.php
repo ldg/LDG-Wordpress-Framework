@@ -33,11 +33,13 @@
 	</header> <!-- end .entry-header -->
 	<div class="entry-content">
 		<?php 
-			if( is_search() ) {
+			if( is_search() || is_tag() || is_category() ) {
 				the_excerpt();
-			} else {
+			} elseif (is_single()) {
 				the_content( __( 'Continue reading &rarr;', 'lost' ) );
 				wp_link_pages();
+			} else {
+				the_excerpt();
 			}
 		 ?>
 	</div> <!-- end .entry-content -->
