@@ -373,7 +373,11 @@ function al_add_editor_styles() {
 }
 add_action( 'after_setup_theme', 'al_add_editor_styles' );
 
+/**
+* -----------------------------------------------------------------------------------
+* 15.0 - Include plugin activation
+* -----------------------------------------------------------------------------------
+*/
 
-
-
+include('includes/plugin_activation.php');
 
