@@ -379,5 +379,5 @@ add_action( 'after_setup_theme', 'al_add_editor_styles' );
 * -----------------------------------------------------------------------------------
 */
 
-include('includes/plugin_activation.php');
+include('includes/plugin-activation.php');
 
