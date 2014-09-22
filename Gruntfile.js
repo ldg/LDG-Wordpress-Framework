@@ -47,7 +47,7 @@ module.exports = function(grunt) {
           // To enable, set sourceMap to true and update sourceMapRootpath based on your install
           sourceMap: true,
           sourceMapFilename: 'assets/css/main.css.map',
-          sourceMapRootpath: '/app/themes/roots/'
+          sourceMapRootpath: '/app/themes/lost/'
         }
       },
       build: {
@@ -114,12 +114,12 @@ module.exports = function(grunt) {
           length: 32,
           manifest: 'assets/manifest.json',
           querystring: {
-            style: 'roots_css',
-            script: 'roots_js'
+            style: 'lost_css',
+            script: 'lost_js'
           }
         },
         files: {
-          'lib/scripts.php': 'assets/{css,js}/{main,scripts}.min.{css,js}'
+          'functions.php': 'assets/{css,js}/{main,scripts}.min.{css,js}'
         }
       }
     },
@@ -142,7 +142,7 @@ module.exports = function(grunt) {
         // Browser live reloading
         // https://github.com/gruntjs/grunt-contrib-watch#live-reloading
         options: {
-          livereload: false
+          livereload: true
         },
         files: [
           'assets/css/main.css',
