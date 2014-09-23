@@ -15,6 +15,10 @@
 ######################
 .DS_Store
 
+# files #
+#########
+assets/manifest.json
+
 # Folders to ignore
 node_modules/
 bower_components/
