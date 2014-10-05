@@ -107,22 +107,22 @@ module.exports = function(grunt) {
         parseFiles: true
       }
     },
-    version: {
-      default: {
-        options: {
-          format: true,
-          length: 32,
-          manifest: 'assets/manifest.json',
-          querystring: {
-            style: 'lost_css',
-            script: 'lost_js'
-          }
-        },
-        files: {
-          'functions.php': 'assets/{css,js}/{main,scripts}.min.{css,js}'
-        }
-      }
-    },
+    // version: {
+    //   default: {
+    //     options: {
+    //       format: true,
+    //       length: 32,
+    //       manifest: 'assets/manifest.json',
+    //       querystring: {
+    //         style: 'lost_css',
+    //         script: 'lost_js'
+    //       }
+    //     },
+    //     files: {
+    //       'functions.php': 'assets/{css,js}/{main,scripts}.min.{css,js}'
+    //     }
+    //   }
+    // },
     watch: {
       less: {
         files: [
@@ -169,7 +169,7 @@ module.exports = function(grunt) {
     'less:build',
     'autoprefixer:build',
     'uglify',
-    'modernizr',
-    'version'
+    'modernizr'//,
+    //'version'
   ]);
 };
