@@ -66,7 +66,7 @@ include(dirname(__FILE__) . '/includes/pagination.php');
 * 7.0 - Register the widget areas
 * -----------------------------------------------------------------------------------
 */
-include(dirname(__FILE__) . '/includes/widgets.php')
+include(dirname(__FILE__) . '/includes/widgets.php');
 
 /**
 * -----------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ include(dirname(__FILE__) . '/includes/custom-thumbs.php');
 * 12.0 - limit the word count in excerpts
 * -----------------------------------------------------------------------------------
 */
-include(dirname(__FILE__) . '/includes/custom-exerpts.php');
+include(dirname(__FILE__) . '/includes/custom-excerpts.php');
 
 /**
 * -----------------------------------------------------------------------------------
