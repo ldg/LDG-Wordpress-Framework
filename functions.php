@@ -131,3 +131,10 @@ include('includes/plugin-activation.php');
 */
 include(dirname(__FILE__) . '/includes/custom-functions.php');
 
+/**
+*
+* 17.0 - add support for the customizer api
+*
+**/
+include(dirname(__FILE__) . '/includes/customizer.php');
+
