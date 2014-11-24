@@ -25,20 +25,3 @@ if( ! function_exists( 'lost_scripts' ) ) {
 
 	add_action( 'wp_enqueue_scripts', 'lost_scripts' );
 }
-
-/**
- * Used by hook: 'customize_preview_init'
- * 
- * @see add_action('customize_preview_init',$func)
- */
-function lost_customizer_live_preview()
-{
-	wp_enqueue_script( 
-		  'lost-themecustomizer',			//Give the script an ID
-		  get_template_directory_uri().'/assets/js/theme-customizer.js',//Point to file
-		  array( 'jquery','customize-preview' ),	//Define dependencies
-		  '',						//Define a version (optional) 
-		  true						//Put script in footer?
-	);
-}
-add_action( 'customize_preview_init', 'lost_customizer_live_preview' );
