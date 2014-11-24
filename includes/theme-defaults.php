@@ -54,6 +54,8 @@ if ( ! function_exists( 'ldg_setup') ) {
 		*
 		* Register nav menus
 		*
+		* @link http://codex.wordpress.org/Function_Reference/register_nav_menus
+		*
 		**/
 		register_nav_menus( array(
 		    'primary' => __( 'Primary Menu', 'lost' ),
@@ -87,8 +89,8 @@ if ( ! function_exists( 'ldg_setup') ) {
 		**/
 		$defaults = array(
 			'default-image'          => '',
-			'width'                  => 0,
-			'height'                 => 0,
+			'width'                  => 960,
+			'height'                 => 300,
 			'flex-height'            => false,
 			'flex-width'             => false,
 			'uploads'                => true,
