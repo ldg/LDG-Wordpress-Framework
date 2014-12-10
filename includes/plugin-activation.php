@@ -72,12 +72,12 @@ function my_theme_register_required_plugins() {
          array (
             'name' => 'WPide',
             'slug' => 'wpide',
-            'required' => true
+            'required' => false
         ),
         array (
             'name' => 'HTML Editor Syntax Highlighter',
             'slug' => 'html-editor-syntax-highlighter',
-            'required' => true
+            'required' => false
         )
 
     );
