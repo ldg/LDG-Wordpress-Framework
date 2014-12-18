@@ -7,8 +7,10 @@
 * Version: 1.2
 * Author: Scott McIntire
 * Author URI: http://lostdoggrafix.com
-* Licencse: GNU General Public License version 3.0
+* License: GNU General Public License version 3.0
 * License URI: http://www.gnu.org/licensed/gpl-3.0.html;
-* Tags: one-column, two-column, right-sidebar, left-sidebar, fluid-layout, featured-images, post-formats, sticky-posts, translation-ready
+* Tags: one-column, two-columns, right-sidebar, left-sidebar, fluid-layout, featured-images, post-formats, sticky-post, translation-ready
 * Text-domain: lost
 */
+.sticky {}
+.bypostauthor {}

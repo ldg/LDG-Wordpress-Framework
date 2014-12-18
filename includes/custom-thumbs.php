@@ -6,7 +6,7 @@
 */
 function my_image_sizes($sizes) {
     $addsizes = array(
-        "square-large" => __( "Large square image")
+        "square-large" => __( "Large square image", "lost")
     );
     $newsizes = array_merge($sizes, $addsizes);
     return $newsizes;
