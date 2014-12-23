@@ -3,6 +3,8 @@
 *
 * defer below the fold css until the whole page is loaded
 *
+* inline above the fold css first, then load critical css with script
+*
 **/
 
 // var cb = function() {
