@@ -19,7 +19,7 @@ if( ! function_exists( 'lost_scripts' ) ) {
 		wp_enqueue_script( 'lost-custom-js' );
 		//load stylesheets
 		wp_enqueue_style( 'font-awesome', THEMEROOT . '/assets/css/font-awesome.min.css' );
-		wp_enqueue_style( 'lost-main', THEMEROOT . '/assets/css/main.css' );
+		wp_enqueue_style( 'lost-main', THEMEROOT . '/assets/css/main.min.css' );
 
 	}
 
